@@ -1,0 +1,19 @@
+Package: ProtDomSeq
+Type: Package
+Title: Work with InterPro Protein Domains and FASTA Sequences (UniProt)
+Version: 0.1.0
+Author: Vitalii Kleshchevnikov
+Authors@R: c(person("Vitalii", "Kleshchevnikov",, "vk7@sanger.ac.uk", role = c("aut", "cre")))
+Maintainer: Vitalii Kleshchevnikov <vk7@sanger.ac.uk>
+Description: This package facilitates work with InterPro protein domains and 
+    FASTA Sequences from UniProt database. 
+    You can used it to read InterPro GFF3 output, combine with signature type
+    annotations,filter, combine domain positions by InterPro ID (useful when matching
+    signatures from InterPro member databases differ), parse and use InterPro domain hierarchy.
+    This package also lets you download protein sequences from UniProt.
+License: Apache License 2.0
+Encoding: UTF-8
+LazyData: true
+RoxygenNote: 6.1.0
+Depends: Biostrings, rtracklayer
+Imports: GenomeInfoDb
